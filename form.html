@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./index.html">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+    <form action="" class="form-input">
+
+        <div class="container-input">
+            <label for="product-name">Product Name</label>
+            <input type="text" name="product-name" id="product-name" required>
+        </div>
+
+        <div class="container-input">
+            <label for="product-price">Product Price</label>
+            <input type="number" name="product-price" id="product-price" required>
+        </div>
+
+        <div class="container-input">
+            <label for="product-discription">Product Discription</label>
+            <textarea name="product-discription" id="product-discription" rows="5"></textarea>
+        </div>
+
+        <select name="" id="product-category" class="container-input">
+            <option value="">Product Category</option>
+            <option value="1">Electronics</option>
+            <option value="2">Men's Clothing</option>
+            <option value="3">Women's Clothing</option>
+            <option value="4">Jewelery</option>
+        </select>
+        
+        <div class="container-input">
+            <input type="file" name="product-image" id="product-image" required>
+            <!-- <input type="image" name="product-image" src="" alt="" id="product-image" required> -->
+        </div>
+
+        <div class="links">
+            <button type="submit">Submit</button>
+            <a href="./index.html">Go Back</a>
+        </div>
+
+    </form>
+ </div>
+ <script src="./index.js"></script>
+</body>
+</html>
